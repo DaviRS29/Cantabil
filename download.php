@@ -17,7 +17,7 @@ if(isset($_POST['cnpj'])) {
     $remoteFilePath = "/".$procurarCnpj."/".$nomeArquivo;
 
     // Caminho local onde o arquivo será salvo
-    $localFilePath = "C:/".$nomeArquivo;
+    $localFilePath = "C:/Users/".getenv('USERNAME')."/Downloads/".$nomeArquivo;
 
     // Conexão com o servidor FTP
     $ftpConnection = ftp_connect($ftpServer);
