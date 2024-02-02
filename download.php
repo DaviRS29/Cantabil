@@ -9,7 +9,7 @@ if(isset($_POST['cnpj'])) {
     
 
     // Configurações do servidor FTP
-    $ftpServer = "192.168.15.100";
+    $ftpServer = "atomobackup.ddns.net";
     $ftpUsername = "contabil";
     $ftpPassword = "c07@b1l";
 
