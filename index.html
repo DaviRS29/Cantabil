@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="br-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contabilidade</title>
+</head>
+<body>
+    <h1>Download de xml</h1>
+    <p>Informe os 11 números do CNPJ</p>
+
+    <!-- Formulário para enviar o CNPJ e o mês/ano para o script PHP -->
+    <form action="download.php" method="post">
+        
+        <input type="text" name="cnpj" placeholder="CNPJ">
+        <p>Ex:11111111111</p>
+        <label for="mesAno">Selecione o mês e o ano:</label>
+        <input type="month" id="mesAno" name="mesAno">
+
+        <button type="submit">Pesquisar e Baixar</button>
+    </form>
+</body>
+</html>
